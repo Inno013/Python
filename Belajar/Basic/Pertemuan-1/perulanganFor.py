@@ -3,7 +3,7 @@ sum = 0
 
 for i in angka:
     # Menjumlahkan nilai di list angka
-    sum += i
+    sum = sum + i
 # Output : Hasil jumlah nilai di list
 print("Hasilnya adalah", sum)
 
