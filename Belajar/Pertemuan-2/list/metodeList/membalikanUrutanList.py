@@ -1,5 +1,5 @@
 # Membuat List
 alfabet = ['a','c','d','e','b'] 
 # Membalikan Urutan list
-alfabet.reverse() 
+alfabet.reverse()
 print(alfabet) 

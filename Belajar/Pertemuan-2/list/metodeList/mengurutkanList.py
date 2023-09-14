@@ -1,8 +1,11 @@
 # Membuat List
-alfabet = ['a','b','d','f','e','c','h','g','j','i']
+alfabet = ['ama', "jenex",'basi','dani','fuka','ema','cada','hasi','galih','janex','inno']
+angka = [5,666, -3, 53, 8 , 9.6]
 # Mengurutkan List
-alfabet.sort() 
+angka.sort(reverse=True)
+print(angka)
+alfabet.sort()
 print(alfabet)
 # Mengurutkan Kebalik 
-alfabet.sort(reverse=True) 
+alfabet.sort(reverse=True)
 print(alfabet) 

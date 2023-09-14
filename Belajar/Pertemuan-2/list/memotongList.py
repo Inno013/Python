@@ -6,4 +6,4 @@ print(my_list[4:])
 # anggota list dari 0 s/d 4 
 print(my_list[:5]) 
 # indeks dari belakang dari -5 s/d yang terakhir
-print(my_list[-5:])
+print(my_list[-1:-5])
