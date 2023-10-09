@@ -23,8 +23,8 @@
 #         queue.append(x)
 #   return visitedList
 
-# #memanggil fungsi
-# print(bfs(graphs, 2))
+# # #memanggil fungsi
+# print(bfs(graphs, 3))
 
 # Cara 2
 # membuat daftar node (vertex list)
@@ -41,11 +41,10 @@ def bfs(graphs, start):
 
     # fill adjacencyList from graph
     for edge in edgeList:
-        # print("edge : " , edge)
+        # print(edge)
         adjacencyList[edge[0]].append(edge[1])
 
         # print("adjacent : ",adjacencyList)
-
     # bfs
     while queue:
         current = queue.pop()
@@ -55,4 +54,4 @@ def bfs(graphs, start):
         visitedList.append(current)
     return visitedList
 
-print(bfs(graphs, 5))
+print(bfs(graphs, 0))
