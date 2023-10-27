@@ -1,0 +1,26 @@
+Soal 1: Tambahkan Fitur
+Penjelasan : 
+ Anda memiliki sebuah labirin dalam bentuk matriks 2D di Python, 
+ di mana beberapa sel mewakili dinding (dinyatakan sebagai 'X') dan 
+ beberapa sel mewakili jalur yang dapat dilewati (dinyatakan sebagai '.'). 
+ Labirin memiliki satu titik awal (mulai) dan satu titik tujuan (selesai). 
+ program dibawah ini dapat menemukan jalur terpendek dari titik awal ke titik tujuan 
+ dengan menggunakan algoritma Breadth-First Search (BFS)."""
+
+Tambahkan Fitur :
+    1. Program harus memungkinkan pengguna untuk menentukan titik awal (start) dan 
+    titik tujuan (goal) dalam labirin. 
+    Penjelasan: Contoh program pada file Soal_1.py masih masih ditembak secara source code 
+                pada baris 60,dan 61. Kalian buatkan agar saat program dijalankan 
+                user(Kalian) dapat menginputkannya.
+    2. Program harus memiliki fitur untuk menandai jalur yang ditemukan dalam labirin 
+    dengan karakter khusus (misalnya, '*') sehingga pengguna dapat melihat jalur visualnya.
+    Dan berikan penanda dengan huruf S(untuk menandai titik awal) 
+    dan huruf E(untuk menandai titik tujuan)
+    Sebagai contoh:
+    ['S', '.', '.', 'X', 'X'],
+    ['*', 'X', '.', '.', '.'],
+    ['*', 'X', 'X', 'X', '.'],
+    ['*', '*', '*', '*', '*'],
+    ['X', 'X', 'X', 'X', '*'],
+    ['.', '.', '.', '.', 'E']
